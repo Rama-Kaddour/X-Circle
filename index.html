@@ -1,0 +1,383 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="حلول رقمية لتحسين الأعمال بمختلف القطاعات."/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link rel="stylesheet" href="./static/css/style.css">
+    <title>X Circle</title>
+    
+    <link href="https://fonts.cdnfonts.com/css/neo-sans-arabic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <main class="bg-hero bg-hero-mb w-100 h-100 text-white text-lg overflow-hidden" id="bgHeroMb">
+        
+        <nav class="navbar navbar-expand-lg mt-1">
+            <div class="container">
+                <div class="navbar-brand d-flex">
+                    <img src="./public/images/logo.png" alt="X Circle" class=""/>
+                </div>
+                <button onclick="changeDisplay()" id="change-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </button>
+                <div class="collapse collapse navbar-collapse me-md-auto p-md-0 p-3 rounded-3" id="navbarContent">
+                    <ul class="navbar-nav mb-2 mx-md-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white ms-md-5" aria-current="page" href="#">الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ms-md-5" href="#">خدماتنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ms-md-5" href="#">كيف نعمل؟</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ms-md-5" href="#">مشاريعنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">المدونة</a>
+                        </li>
+                    </ul>
+                    <button class="badge btn bg-white text-purple mt-md-0 mt-3 p-md-2 px-md-4 reserve-btn">حجز موعد</button>
+                </div>  <!-- navbar-collapse -->
+            </div>  <!-- container -->
+        </nav>
+
+        <div class="hero-page pt-5 mt-md-5 m-auto">
+            <p class="tx-1 text-center mb-4 mt-2 mt-md-3">شريك رقمي تعتمد عليه</p>
+            <div class="row d-flex justify-content-center mb-5 pt-4">
+                <div class="col-md-6 col-10 sln-text">
+                    <p class="tx-2 text-center">حلول رقمية لتحسين الأعمال بمختلف القطاعات</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <button class="d-btns btn btn-lg bg-white text-purple ms-3 rounded-3 py-1 px-md-4 px-2 border-0">
+                    حجز موعد
+                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.799 11H2M2 11L10.9095 2.09045M2 11L10.9095 19.9095" stroke="#43168B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button class="d-btns btn btn-lg text-white rounded-3 py-1 px-md-4 px-2" style="background-color: transparent; border: 1px white solid;">
+                    ملف الشركة
+                </button>
+            </div>
+        </div> <!-- hero -->
+    </main> <!-- main hero -->
+
+    <section class="w-100 text-purple text-lg py-5 flex-default flex-column gap-4">
+
+        <div class="container">
+            <p class="serv-txt text-center">خدماتنا ومنتجاتنا</p>
+            <p class="services-txt text-center mt-4 mb-5" >كل الخدمات التي تحتاجها وأكثر في مكان واحد وبأيدي أمينة</p>
+        </div> <!-- title -->
+        <div class="d-flex justify-content-between align-items-stretch gap-4 flex-wrap container">
+            <div class="w-25 flex-default flex-column gap-2 p-4 shadow rounded-lg min-w-14 mx-auto">
+                <img src="./public/images/products-icon.png" alt="icon">
+                <p class="title-card mt-3">تطوير المواقع</p>
+                <p class="text-dark text-center fs-20 my-2 pb-3">نقدم خدمات تطوير تطبيقات مخصصة تلبي احتياجات عمالئنا بدقة</p>
+            </div><!-- card 0 -->
+            <div class="w-25 flex-default flex-column gap-2 p-4 shadow rounded-lg min-w-14 mx-auto">
+                <img src="./public/images/products-icon.png" alt="icon">
+                <p class="title-card mt-3">حلول الشبكات</p>
+                <p class="text-dark text-center fs-20 my-2 pb-3">نقدم خدمات تطوير تطبيقات مخصصة تلبي احتياجات عمالئنا بدقة</p>
+            </div><!-- card 1 -->
+            <div class="w-25 flex-default flex-column gap-2 p-4 shadow rounded-lg min-w-14 mx-auto text-center">
+                <img src="./public/images/products-icon.png" alt="icon">
+                <p class="title-card mt-3 ">الحوسبة السحابية</p>
+                <p class="text-dark text-center fs-20 my-2 pb-3">نقدم خدمات تطوير تطبيقات مخصصة تلبي احتياجات عمالئنا بدقة</p>
+            </div><!-- card 2 -->
+            <div class="w-25 flex-default flex-column gap-2 p-4 shadow rounded-lg min-w-14 mx-auto">
+                <img src="./public/images/products-icon.png" alt="icon">
+                <p class="title-card mt-3">أمن المعلومات</p>
+                <p class="text-dark text-center fs-20 my-2 pb-3">نقدم خدمات تطوير تطبيقات مخصصة تلبي احتياجات عمالئنا بدقة</p>
+            </div><!-- card 3 -->
+            <div class="w-25 flex-default flex-column gap-2 p-4 shadow rounded-lg min-w-14 mx-auto">
+                <img src="./public/images/products-icon.png" alt="icon">
+                <p class="title-card mt-3">تطبيقات الهاتف</p>
+                <p class="text-dark text-center fs-20 my-2 pb-3">نقدم خدمات تطوير تطبيقات مخصصة تلبي احتياجات عمالئنا بدقة</p>
+            </div><!-- card 4 -->
+            <div class="w-25 flex-default flex-column gap-2 p-4 bg-purple text-white rounded-lg min-w-14 mx-auto">
+                <p class="title-card text-center lh my-auto">تصفح كل الخدمات التي نقدمها
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left"><path d="M6 8L2 12L6 16"/><path d="M2 12H22"/>
+                    </svg>
+                </p>
+            </div><!-- card 5 -->
+        </div><!-- cards container -->
+
+    </section> <!-- services & products -->
+
+    <section class="w-100 h-100 text-white text-lg bg-gallery py-4">
+        
+        <div class="container">
+            <p class="serv-txt  text-center">معرض أعمالنا</p>
+            <p class="services-txt text-center mt-4">جزء من الأعمال التي تم تنفيذها بواسطتنا</p>
+        </div> <!-- title -->
+        
+        <div class="swiper workSwiper relative mt-2">
+            <div class="swiper-wrapper container ">
+                <div class="swiper-slide">
+                    <img src="./public/images/work2.png" alt="work 2" class="h-15" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/images/work3.png" alt="work 1" class="h-15" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/images/work2.png" alt="work 2" class="h-15" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/images/work1.png" alt="work 3" class="h-15" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/images/work2.png" alt="work 2" class="h-15" />
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </section><!-- gallery swiper -->
+
+    <section class="w-100 text-purple text-lg py-4">
+        
+        <div class="container py-4">
+            <p class="serv-txt text-center">شركاء النجاح</p>
+            <p class="services-txt text-center mt-4 mb-3 text-dark">نعتز بتكوين شركات مع كبري الشركات التقنية حول العالم</p>
+        </div> <!-- title -->
+        <div class="row mw-100 pt-md-4 pt-2 flex-default justify-content-between mb-5 pb-2 px-md-0 px-5">
+            <div class="col-md-1"></div>
+            <div class="col-md-1 col-4 text-center">
+                <img src="./public/images/partners/partner5.png" alt="autodesk" class="partner-img" />
+            </div>
+            <div class="col-md-1 col-4 text-center">
+                <img src="./public/images/partners/partner4.png" alt="linkedin" class="partner-img" />
+            </div>
+            <div class="col-md-1 col-4 text-center">
+                <img src="./public/images/partners/partner3.png" alt="dribbble" class="partner-img" />
+            </div>
+            <div class="col-md-1 col-4 text-center mt-md-0 mt-4">
+                <img src="./public/images/partners/partner2.png" alt="logitech" class="partner-img" />
+            </div>
+            <div class="col-md-1 col-4 text-center mt-md-0 mt-4">
+                <img src="./public/images/partners/partner1.png" alt="amazon" class="partner-img" />
+            </div>
+            <div class="col-md-1 col-4 text-center mt-md-0 mt-4">
+                <img src="./public/images/partners/partner0.png" alt="google" class="partner-img" />
+            </div>
+            <div class="col-md-1"></div>
+        </div><!-- partners -->
+
+    </section><!-- partners -->
+
+    <section class="w-100  text-white text-lg bg-gallery h-40 overflow-hidden">
+
+        <div class="d-flex justify-content-between gap-4 w-100 h-100 reviews">
+            
+            <div class="container py-4 me-md-3 me-1" style="width: 35% !important; margin-top: 18%;">
+                <p class="op-txt text-end">أراء العملاء</p>
+                <p class="services-txt text-end mt-4">عملائنا هم أولويتنا القصوي ونفخر بثقتهم بنا</p>
+
+                <div class="reserve-btn1 rounded-3 w-50 py-2 py-md-3 bg-white text-purple flex-default mt-md-5 mt-4 px-5 " >
+                    <p class="ps-md-3 text-center" style="font-size: 16px; font-weight: 700;">حجز موعد</p>
+                    <svg class="d-none d-md-flex" width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.799 11H2M2 11L10.9095 2.09045M2 11L10.9095 19.9095" stroke="#43168B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div> <!-- title -->
+
+            <div class="h-100 flex-default" style="width: 65% !important;">
+                <img src="./public/images/reviews1.png" alt="client's reviews" class="reviews-img -ml-37 animate-moveDown" style="--time: 8s;">
+                <img src="./public/images/reviews1.png" alt="client's reviews" class="reviews-img1 -ml-37 animate-moveDown1" style="--time: 8s;">
+                <img src="./public/images/reviews1.png" alt="client's reviews" class="reviews-img -ml-4 animate-moveDown" style="--time: 8s;">
+            </div><!-- clients reviews -->
+
+        </div><!-- container -->
+
+    </section><!-- reviews -->
+    
+    <!-- <section class="work w-100 text-purple text-lg py-4">
+        
+        <div class="container title py-4">
+            <p class="text-2xl text-center">كيف نعمل؟</p>
+            <p class="text-center mt-2 text-dark">آلية العمل التي نتبعها في اكس سيركلز</p>
+        </div> title
+
+        <div class="container relative py-4 h-40">
+            <img src="./public/images/work/arrows.png" alt="arrows" class="mx-auto d-block mt-5 mx-auto w-75"/> 
+
+            <div class="workCard flex-default gap-2 flex-column max-w-xxs absolute">
+                <img src="./public/images/work/work1.png" alt="work 1" class=""/>
+                <p class="text-center">نفهم متطلباتك</p>
+                <p class="text-center text-dark">نسمع ونناقش المتطلبات اللازمة لتنفيذ وتطوير مشروعك</p>
+            </div>
+            <div class="workCard flex-default gap-4 flex-column max-w-xxs absolute">
+                <img src="./public/images/work/work2.png" alt="work 2" class=""/>
+                <p class="text-center">ندرس ونخطط</p>
+                <p class="text-center text-dark">نقوم بدراسة وتحليل وتخطيط مسار العمل اللازم</p>
+            </div>
+            <div class="workCard flex-default gap-4 flex-column max-w-xxs absolute">
+                <img src="./public/images/work/work3.png" alt="work 3" class=""/>
+                <p class="text-center">نصمم ونبرمج</p>
+                <p class="text-center text-dark">نقوم بعمل التصميم والبرمجة والتطوير اللازمة للمشروع</p>
+            </div>
+            <div class="workCard flex-default gap-4 flex-column max-w-xxs absolute">
+                <img src="./public/images/work/work3.png" alt="work 3" class=""/>
+                <p class="text-center">نختبر ونسلم</p>
+                <p class="text-center text-dark">نقوم باختبار البرمجيات المنفذة وتسليمها للعميل</p>
+            </div>
+        </div> 
+
+    </section> -->
+
+    <section class="w-100 text-white text-lg pt-4 bg-form relative">
+
+        <div class="d-flex justify-content-around align-items-center w-75 bg-purple mx-auto py-5 mt-3">
+            
+            <div class="container py-4 me-4">
+                <p class="join-txt text-center text-md-end">إنضم لقائمة العملاء لدنيا</p>
+                <p class="start-txt text-center text-md-end mt-2">ابدأ رحلتك مع إكس سيركلز</p>
+            </div> <!-- title -->
+
+            <div class="container mx-auto">
+                <input type="text" class="mt-2" name="name" id="name" placeholder="الاسم">
+                <input type="email" class="mt-2" name="email" id="email" placeholder="البريد الالكتروني">
+                <input type="text" class="mt-2" name="job" id="job" placeholder="مجال العمل">
+                <textarea name="notes" id="notes" rows="3" name="notes" placeholder="ملاحظات" class="mt-2"></textarea>
+                <button type="submit" class="bg-white text-purple text-center px-4 py-2 d-block sign-btn" class="" style="font-size: 20px;">تسجيل معلوماتي</button>
+            </div><!-- form -->
+
+        </div>
+
+    </section>
+
+    <section class="w-100 text-purple text-lg py-4">
+        
+        <div class="container py-4 max-w-3xl">
+            <p class="text-2xl text-center">المدونة</p>
+            <p class="text-center mt-2 text-dark">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، مولد النص العربى مفيد.</p>
+        </div> <!-- title -->
+
+        <div class="d-flex justify-content-between align-items-center gap-4 container flex-wrap">
+
+            <div class="flex-default gap-4 flex-column max-w-xs px-2 mx-auto">
+                <img src="./public/images/blog.png" alt="blog 1" class="rounded-lg blogs-img">
+                <p class="text-center">ماهي الفاتورة الضريبية</p>
+                <p class="text-gray line-clamp-2 text-base opacity-75">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، مولد النص العربى مفيد.</p>
+                <p class="text-left text-base bold w-100 px-4">28 فبراير 2023</p>
+            </div><!-- blog 1 -->
+            <div class="flex-default gap-4 flex-column max-w-xs px-2 mx-auto">
+                <img src="./public/images/blog.png" alt="blog 2" class="rounded-lg blogs-img">
+                <p class="text-center">ماهي الفاتورة الضريبية</p>
+                <p class="text-gray line-clamp-2 text-base opacity-75">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، مولد النص العربى مفيد.</p>
+                <p class="text-left text-base bold w-100 px-4">28 فبراير 2023</p>
+            </div><!-- blog 2 -->
+            <div class="flex-default gap-4 flex-column max-w-xs px-2 mx-auto">
+                <img src="./public/images/blog.png" alt="blog 3" class="rounded-lg blogs-img">
+                <p class="text-center">ماهي الفاتورة الضريبية</p>
+                <p class="text-gray line-clamp-2 text-base opacity-75">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، مولد النص العربى مفيد.</p>
+                <p class="text-left text-base bold w-100 px-4">28 فبراير 2023</p>
+            </div><!-- blog 3 -->
+
+        </div><!-- bolgs -->
+        
+        <div class="badge big bg-purple text-white bold flex-default gap-2 mt-5 w-fit px-3 mx-auto">
+            <p>قراءة المزيد</p>
+            <svg width="27" height="23" viewBox="0 0 27 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.8333 7.381L8.25 11.9643L12.8333 16.5477" stroke="white" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                <path opacity="0.6" d="M17.8333 7.381L13.25 11.9643L17.8333 16.5477" stroke="white" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+
+    </section>
+
+    <footer class="bg-purple relative text-light overflow-hidden">
+
+        <img src="./public/images/circle.png" alt="circle" class="footer-shapes"/>
+        <img src="./public/images/circle.png" alt="circle" class="footer-shapes last"/>
+
+        <div class="d-flex justify-content-between w-100 py-3 flex-wrap gap-4 container">
+            <div class="d-flex flex-column max-w-xs w-25 footer-list">
+                <img src="./public/images/logo.png" alt="X Circle" class="w-25"/>
+                <p class="text-lightGray">
+                    شركة تقنية ناشئة تختص في تقديم حلول متقدمة في مجال خدمات الاتصالات وتقنية المعلومات. تأسست الشركة عىل يد مجموعة من الخبراء والمبتكرين الذين يجمعون بين الخبرة العميقة والشغف بتحويل الصناعة.
+                </p>
+                <a href="mailto:hello@xcircle.com" class="text-white">hello@xcircle.com</a>
+            </div> <!-- logo & desc -->
+            <div class="d-flex justify-content-between py-3 flex-wrap gap-4 gap-y-4 w-65 px-3 footer-list">
+
+                <div class="d-flex flex-column gap-2 max-w-xs min-w-max">
+                    <p class="bold mb-2">روابط</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">الرئيسية</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">خدماتنا</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">كيف نعمل؟</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">مشاريعنا</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">المدونة</a>
+                </div>
+                <div class="d-flex flex-column gap-2 max-w-xs min-w-max">
+                    <p class="bold mb-2">خدمات</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">تطبيقات ERP</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">الشبكات</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">الأمن السيبراني</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">خدمات مُدارة</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">بنية تحتية رقمية</a>
+                </div>
+                <div class="d-flex flex-column gap-2 max-w-xs min-w-max">
+                    <p class="bold mb-2">تواصل معنا</p>
+                    <div class="d-flex justify-content-between align-items-center gap-4 w-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <a href="tel:+966536259220" style="direction: ltr; text-align: right;" class="w-100">+966-536259220</a>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center gap-4 w-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                        </svg>
+                        <a href="mailto:info@xcyrcle.co" class="w-100">Info@xcyrcle.co</a>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center gap-4 w-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="w-100">بوابة الأعمال، <br />المبني السابع الطابق الأول، الرياض</a>
+                    </div>
+                    
+                </div>
+
+            </div> <!-- links -->
+        </div> <!-- footer main -->
+
+        <div class="h-1 bg-gray w-75 mx-auto"></div>
+
+        <p class="text-center p-3">جميع الحقوق محفوظة لصالح شركة XCircle</p>
+
+    </footer><!-- footer -->
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/neo-sans-arabic');
+    </style>
+
+    
+<!-- <script>
+    var btn = document.getElementById('change-btn')
+    var hero = document.getElementsById('bgHeroMb');
+    
+    function changeDisplay() {
+        //toggle means add/remove
+        
+        hero.classList.toggle('bg-hero-mb');
+
+        //toggle means add/remove
+        
+    }
+</script> -->
+
+
+    
+      <script src="https://unpkg.com/lucide@latest"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="./static/js/script.js"></script>
+</body>
+</html>
